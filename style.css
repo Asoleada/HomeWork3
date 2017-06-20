@@ -1,0 +1,48 @@
+div.main{
+    width: 50%;
+    border: 2px solid grey;
+    margin: 15px auto;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: left;
+}
+
+header{
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 30px;
+}
+
+footer{padding: 15px; }
+
+section {
+    text-align: left;
+    font-size: 12pt;
+    padding: 10px 35px  ;
+    float:left;
+    max-width: 160px;
+    overflow: auto;
+}
+
+section ul {
+    list-style-type: none;
+padding:0;
+}
+
+section ul a {text-decoration: none;
+color: blue;
+}
+a:hover {background-color: lightgrey}
+a:visited {color: purple}
+
+article {
+    margin-left: 170px;
+    border-left: 2px solid grey;
+    padding: 35px 20px 20px 20px;
+    text-align: justify;
+}
+
