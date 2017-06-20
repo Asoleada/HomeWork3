@@ -24,7 +24,7 @@ section {
     font-size: 12pt;
     padding: 10px 35px  ;
     float:left;
-    max-width: 160px;
+    width: 100px;
     overflow: auto;
 }
 
@@ -40,9 +40,10 @@ a:hover {background-color: lightgrey}
 a:visited {color: purple}
 
 article {
-    margin-left: 170px;
+
     border-left: 2px solid grey;
     padding: 35px 20px 20px 20px;
     text-align: justify;
+    overflow: hidden;
 }
 
